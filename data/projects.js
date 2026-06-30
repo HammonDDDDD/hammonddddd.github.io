@@ -22,6 +22,28 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Python", "LLM", "Multi-Agent Systems", "Pydantic", "Requirements Engineering"]
   },
   {
+    title: "Multi-Agent / KMU experiments",
+    url: "https://github.com/Tecevik/Multi-Agent",
+    period: "2026",
+    status: {
+      ru: "Экспериментальные результаты для КМУ ИТМО 2026",
+      en: "Experimental results for ITMO YSC 2026"
+    },
+    role: {
+      ru: "Участник исследовательской команды; эксперименты, пайплайны и оценка качества",
+      en: "Research team member; experiments, pipelines and quality evaluation"
+    },
+    summary: {
+      ru: "Экспериментальная платформа для проверки того, как команда LLM-агентов превращает задачу в спецификации, use cases, user stories и оцениваемые артефакты.",
+      en: "Experimental platform for evaluating how a team of LLM agents turns a task into specifications, use cases, user stories and measurable artifacts."
+    },
+    impact: {
+      ru: "Проект связан с результатами для Конгресса молодых учёных ИТМО: он делает сравнение режимов MAS воспроизводимым и показывает результаты через метрики, таблицы и графики.",
+      en: "The project is connected to ITMO Young Scientists Congress results: it makes MAS-mode comparison reproducible and presents results through metrics, tables and visualizations."
+    },
+    tags: ["Python", "LLM", "Multi-Agent Systems", "Experiments", "Evaluation", "Requirements Engineering"]
+  },
+  {
     title: "ITMO Open Source List",
     url: "https://github.com/itmo-ai/itmo-open-source-list",
     period: "2026",

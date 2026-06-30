@@ -1,26 +1,20 @@
-# Denis Pyshkin — personal portfolio site
+# Денис Пышкин — personal portfolio site
 
-Static GitHub Pages portfolio built with plain HTML, CSS and JavaScript.
+Статический сайт-портфолио для GitHub Pages, собранный на HTML, CSS и JavaScript без сборщика.
 
-## How to publish
+## Что внутри
 
-1. Create a public repository named `hammonddddd.github.io`.
-2. Copy all files from this `site/` folder into the root of that repository.
-3. Commit and push to `main`.
-4. In GitHub, open **Settings → Pages** and make sure the source is set to the `main` branch and `/root` folder.
-5. The site should become available at `https://hammonddddd.github.io`.
+- `index.html` — структура страницы.
+- `styles.css` — визуальный стиль.
+- `script.js` — переключение RU/EN и рендеринг карточек.
+- `data/projects.js` — список проектов. Чтобы добавить новый проект, скопируйте один объект и измените поля.
+- `.github/workflows/pages.yml` — деплой на GitHub Pages через GitHub Actions.
+- `.nojekyll` — чтобы GitHub Pages не запускал Jekyll.
 
-## How to add a project
+## Как обновить сайт
 
-Open `data/projects.js`, copy one project object in `window.PORTFOLIO_PROJECTS`, and edit:
+Скопируйте файлы из этой папки в корень репозитория `hammonddddd.github.io`, сделайте commit и push в ветку `main`.
 
-- `title`
-- `url`
-- `period`
-- `status.ru` / `status.en`
-- `role.ru` / `role.en`
-- `summary.ru` / `summary.en`
-- `impact.ru` / `impact.en`
-- `tags`
+В настройках репозитория должно быть:
 
-No build step is needed.
+`Settings → Pages → Build and deployment → Source → GitHub Actions`

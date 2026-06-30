@@ -3,19 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Denis Pyshkin — AI Engineering student at ITMO University. LLM, multi-agent systems, requirements engineering, research tooling." />
-    <title>Denis Pyshkin — AI Engineering Portfolio</title>
+    <meta name="description" content="Денис Пышкин — студент AI Engineering в Университете ИТМО. LLM, мультиагентные системы, requirements engineering, research engineering." />
+    <title>Денис Пышкин — AI Engineering Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Home">
         <span class="brand-mark">DP</span>
-        <span class="brand-text">Denis Pyshkin</span>
+        <span class="brand-text" data-i18n="brand.name">Денис Пышкин</span>
       </a>
 
       <nav class="nav" aria-label="Main navigation">
         <a href="#about" data-i18n="nav.about">Обо мне</a>
+        <a href="#academic" data-i18n="nav.academic">Учёба</a>
         <a href="#projects" data-i18n="nav.projects">Проекты</a>
         <a href="#timeline" data-i18n="nav.timeline">Путь</a>
         <a href="#contact" data-i18n="nav.contact">Контакты</a>
@@ -31,7 +32,10 @@
       <section class="hero section">
         <div class="hero-content">
           <p class="eyebrow" data-i18n="hero.eyebrow">ITMO University · AI Engineering</p>
-          <h1 data-i18n="hero.title">LLM, multi-agent systems and research engineering.</h1>
+          <h1 data-i18n="hero.title">Денис Пышкин</h1>
+          <p class="hero-text hero-subtitle" data-i18n="hero.subtitle">
+            LLM, мультиагентные системы и research engineering.
+          </p>
           <p class="hero-text" data-i18n="hero.text">
             Я строю AI-системы, которые превращают шумные реальные запросы в структурированные артефакты: требования, спецификации, датасеты и инструменты для исследований.
           </p>
@@ -57,7 +61,7 @@
       <section id="about" class="section split-section">
         <div>
           <p class="section-kicker" data-i18n="about.kicker">Обо мне</p>
-          <h2 data-i18n="about.title">AI Engineering student with a research-engineering trajectory.</h2>
+          <h2 data-i18n="about.title">Студент AI Engineering с исследовательско-инженерной траекторией.</h2>
         </div>
         <div class="text-block">
           <p data-i18n="about.p1">
@@ -72,41 +76,94 @@
       <section class="section facts-grid" aria-label="Highlights">
         <article class="fact-card">
           <span class="fact-label" data-i18n="facts.aist.label">AIST</span>
-          <strong data-i18n="facts.aist.value">Nov 2025 — Jun 2026</strong>
-          <p data-i18n="facts.aist.text">Former lab assistant at Artificial Intelligence Systems and Technologies, ITMO University.</p>
+          <strong data-i18n="facts.aist.value">Ноябрь 2025 — июнь 2026</strong>
+          <p data-i18n="facts.aist.text">Бывший лаборант Artificial Intelligence Systems and Technologies, Университет ИТМО.</p>
         </article>
         <article class="fact-card">
-          <span class="fact-label" data-i18n="facts.ysc.label">ITMO YSC 2026</span>
-          <strong data-i18n="facts.ysc.value">Best Young Scientist Talk</strong>
-          <p data-i18n="facts.ysc.text">Diploma for the best young scientist talk.</p>
+          <span class="fact-label" data-i18n="facts.gpa.label">Учёба</span>
+          <strong data-i18n="facts.gpa.value">5.0 / 5.0</strong>
+          <p data-i18n="facts.gpa.text">Оба семестра первого курса закрыты на отлично.</p>
+        </article>
+        <article class="fact-card">
+          <span class="fact-label" data-i18n="facts.ege.label">ЕГЭ</span>
+          <strong data-i18n="facts.ege.value">282 / 300</strong>
+          <p data-i18n="facts.ege.text">Информатика, профильная математика и русский язык.</p>
+        </article>
+        <article class="fact-card">
+          <span class="fact-label" data-i18n="facts.ysc.label">КМУ ИТМО 2026</span>
+          <strong data-i18n="facts.ysc.value">Лучший доклад молодого учёного</strong>
+          <p data-i18n="facts.ysc.text">Диплом за лучший доклад молодого учёного.</p>
         </article>
         <article class="fact-card">
           <span class="fact-label" data-i18n="facts.smiles.label">SMILES 2026</span>
-          <strong data-i18n="facts.smiles.value">Remote participant</strong>
-          <p data-i18n="facts.smiles.text">Accepted for remote participation in the summer school.</p>
+          <strong data-i18n="facts.smiles.value">Заочное участие</strong>
+          <p data-i18n="facts.smiles.text">Принят на дистанционное участие в летней школе.</p>
         </article>
         <article class="fact-card">
-          <span class="fact-label" data-i18n="facts.kvnsh.label">KVNSh 2026</span>
-          <strong data-i18n="facts.kvnsh.value">Application submitted</strong>
-          <p data-i18n="facts.kvnsh.text">Results expected in August 2026.</p>
+          <span class="fact-label" data-i18n="facts.kvnsh.label">КВНШ 2026</span>
+          <strong data-i18n="facts.kvnsh.value">Заявка подана</strong>
+          <p data-i18n="facts.kvnsh.text">Результаты ожидаются в августе 2026.</p>
         </article>
+      </section>
+
+      <section id="academic" class="section academic-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker" data-i18n="academic.kicker">Учёба и стек</p>
+            <h2 data-i18n="academic.title">Техническая база, на которую я опираюсь.</h2>
+          </div>
+          <p class="section-note" data-i18n="academic.note">Здесь — не только инструменты, но и фундаментальные курсы, которые важны для AI/research траектории.</p>
+        </div>
+
+        <div class="academic-grid">
+          <article class="academic-card">
+            <h3 data-i18n="academic.core.title">Изученные предметы на 5.0</h3>
+            <p data-i18n="academic.core.text">Фундаментальная база первого курса: программирование, математика, алгоритмы и инженерные инструменты.</p>
+            <div class="tag-list academic-tags">
+              <span>Python</span>
+              <span data-i18n="academic.subjects.algorithms">Алгоритмы и структуры данных</span>
+              <span data-i18n="academic.subjects.linear">Линейная алгебра</span>
+              <span data-i18n="academic.subjects.probability">Теория вероятностей и матстат</span>
+              <span data-i18n="academic.subjects.calculus">Матанализ</span>
+              <span data-i18n="academic.subjects.numerical">Численные методы анализа</span>
+              <span data-i18n="academic.subjects.discrete">Дискретная математика</span>
+              <span>Linux</span>
+              <span>Git</span>
+            </div>
+          </article>
+
+          <article class="academic-card">
+            <h3 data-i18n="academic.research.title">Research engineering stack</h3>
+            <p data-i18n="academic.research.text">Практический стек для исследовательских прототипов, экспериментов и воспроизводимых пайплайнов.</p>
+            <div class="tag-list academic-tags">
+              <span>Python</span>
+              <span>LLM</span>
+              <span>Multi-Agent Systems</span>
+              <span>Requirements Engineering</span>
+              <span>Evaluation</span>
+              <span>Benchmarks</span>
+              <span>GitHub Pages</span>
+              <span>Open Source</span>
+            </div>
+          </article>
+        </div>
       </section>
 
       <section class="section focus-section">
         <p class="section-kicker" data-i18n="focus.kicker">Фокус</p>
-        <h2 data-i18n="focus.title">What I want my work to be useful for.</h2>
+        <h2 data-i18n="focus.title">Для чего я хочу делать свои проекты.</h2>
         <div class="focus-list">
           <article>
-            <h3 data-i18n="focus.llm.title">Reliable LLM workflows</h3>
-            <p data-i18n="focus.llm.text">Systems that do not just generate text, but preserve structure, traceability and task intent.</p>
+            <h3 data-i18n="focus.llm.title">Надёжные LLM-workflows</h3>
+            <p data-i18n="focus.llm.text">Системы, которые не просто генерируют текст, а сохраняют структуру, трассируемость и исходный смысл задачи.</p>
           </article>
           <article>
-            <h3 data-i18n="focus.eval.title">Evaluation and benchmarks</h3>
-            <p data-i18n="focus.eval.text">Benchmarks for measuring whether agentic systems handle noisy real-world prompts correctly.</p>
+            <h3 data-i18n="focus.eval.title">Оценка и бенчмарки</h3>
+            <p data-i18n="focus.eval.text">Бенчмарки для проверки того, справляются ли агентные системы с шумными реальными запросами.</p>
           </article>
           <article>
             <h3 data-i18n="focus.opensource.title">Open-source infrastructure</h3>
-            <p data-i18n="focus.opensource.text">Tools that make research projects easier to discover, maintain and reuse.</p>
+            <p data-i18n="focus.opensource.text">Инструменты, которые помогают находить, поддерживать и переиспользовать исследовательские проекты.</p>
           </article>
         </div>
       </section>
@@ -115,7 +172,7 @@
         <div class="section-heading">
           <div>
             <p class="section-kicker" data-i18n="projects.kicker">Проекты</p>
-            <h2 data-i18n="projects.title">Selected projects</h2>
+            <h2 data-i18n="projects.title">Избранные проекты</h2>
           </div>
           <p class="section-note" data-i18n="projects.note">Карточки подтягиваются из data/projects.js — чтобы добавить проект, достаточно скопировать один объект.</p>
         </div>
@@ -130,26 +187,30 @@
         <ol class="timeline">
           <li>
             <span>2025–2026</span>
-            <p data-i18n="timeline.item1">Worked as a lab assistant at AIST, ITMO University.</p>
+            <p data-i18n="timeline.item1">Работал лаборантом в AIST, Университет ИТМО.</p>
           </li>
           <li>
             <span>2026</span>
-            <p data-i18n="timeline.item2">Received a diploma for the best young scientist talk at ITMO Young Scientists Congress 2026.</p>
+            <p data-i18n="timeline.item2">Закрыл оба семестра первого курса на 5.0 / 5.0.</p>
           </li>
           <li>
             <span>2026</span>
-            <p data-i18n="timeline.item3">Accepted for remote participation in SMILES 2026 Summer School.</p>
+            <p data-i18n="timeline.item3">Получил диплом за лучший доклад молодого учёного на Конгрессе молодых учёных ИТМО 2026.</p>
+          </li>
+          <li>
+            <span>2026</span>
+            <p data-i18n="timeline.item4">Принят на заочное участие в летней школе SMILES 2026.</p>
           </li>
           <li>
             <span>2026+</span>
-            <p data-i18n="timeline.item4">Continuing toward research projects in LLM, MAS and requirements engineering.</p>
+            <p data-i18n="timeline.item5">Продолжаю двигаться в сторону research-проектов по LLM, MAS и Requirements Engineering.</p>
           </li>
         </ol>
       </section>
 
       <section id="contact" class="section contact-section">
         <p class="section-kicker" data-i18n="contact.kicker">Контакты</p>
-        <h2 data-i18n="contact.title">Open to research collaboration, internships and technical discussions.</h2>
+        <h2 data-i18n="contact.title">Открыт к research collaboration, стажировкам и техническим обсуждениям.</h2>
         <div class="contact-links">
           <a href="mailto:denispyshkin2007@gmail.com">Email</a>
           <a href="https://t.me/hammondddd" target="_blank" rel="noreferrer">Telegram</a>
@@ -159,8 +220,8 @@
     </main>
 
     <footer class="footer">
-      <span>© <span id="year"></span> Denis Pyshkin</span>
-      <span data-i18n="footer.text">Built with static HTML/CSS/JS for GitHub Pages.</span>
+      <span>© <span id="year"></span> <span data-i18n="footer.name">Денис Пышкин</span></span>
+      <span data-i18n="footer.text">Сайт сделан на статическом HTML/CSS/JS для GitHub Pages.</span>
     </footer>
 
     <script src="data/projects.js"></script>
