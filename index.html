@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Denis Pyshkin — AI Engineering student at ITMO University. LLM, multi-agent systems, requirements engineering, research tooling." />
+    <title>Denis Pyshkin — AI Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">DP</span>
+        <span class="brand-text">Denis Pyshkin</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about" data-i18n="nav.about">Обо мне</a>
+        <a href="#projects" data-i18n="nav.projects">Проекты</a>
+        <a href="#timeline" data-i18n="nav.timeline">Путь</a>
+        <a href="#contact" data-i18n="nav.contact">Контакты</a>
+      </nav>
+
+      <div class="language-switch" aria-label="Language switcher">
+        <button type="button" class="lang-button active" data-lang="ru">RU</button>
+        <button type="button" class="lang-button" data-lang="en">EN</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="hero.eyebrow">ITMO University · AI Engineering</p>
+          <h1 data-i18n="hero.title">LLM, multi-agent systems and research engineering.</h1>
+          <p class="hero-text" data-i18n="hero.text">
+            Я строю AI-системы, которые превращают шумные реальные запросы в структурированные артефакты: требования, спецификации, датасеты и инструменты для исследований.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects" data-i18n="hero.projectsButton">Смотреть проекты</a>
+            <a class="button secondary" href="https://github.com/HammonDDDDD" target="_blank" rel="noreferrer" data-i18n="hero.githubButton">GitHub</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Profile summary">
+          <div class="status-dot"></div>
+          <p class="hero-card-title" data-i18n="heroCard.title">Текущий фокус</p>
+          <p data-i18n="heroCard.text">LLM/MAS, Requirements Engineering, benchmark design, open-source infrastructure.</p>
+          <div class="mini-grid">
+            <span>Python</span>
+            <span>LLM</span>
+            <span>MAS</span>
+            <span>Research</span>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="section split-section">
+        <div>
+          <p class="section-kicker" data-i18n="about.kicker">Обо мне</p>
+          <h2 data-i18n="about.title">AI Engineering student with a research-engineering trajectory.</h2>
+        </div>
+        <div class="text-block">
+          <p data-i18n="about.p1">
+            Я закончил первый учебный год бакалавриата «Инженерия искусственного интеллекта» в ИТМО и вхожу во второй курс с фокусом на LLM-системы, мультиагентные пайплайны и оценку качества AI-решений.
+          </p>
+          <p data-i18n="about.p2">
+            С ноября 2025 по июнь 2026 я работал лаборантом в AIST, где занимался AI-agent workflows и инструментами для автоматизации анализа требований и проектных спецификаций.
+          </p>
+        </div>
+      </section>
+
+      <section class="section facts-grid" aria-label="Highlights">
+        <article class="fact-card">
+          <span class="fact-label" data-i18n="facts.aist.label">AIST</span>
+          <strong data-i18n="facts.aist.value">Nov 2025 — Jun 2026</strong>
+          <p data-i18n="facts.aist.text">Former lab assistant at Artificial Intelligence Systems and Technologies, ITMO University.</p>
+        </article>
+        <article class="fact-card">
+          <span class="fact-label" data-i18n="facts.ysc.label">ITMO YSC 2026</span>
+          <strong data-i18n="facts.ysc.value">Best Young Scientist Talk</strong>
+          <p data-i18n="facts.ysc.text">Diploma for the best young scientist talk.</p>
+        </article>
+        <article class="fact-card">
+          <span class="fact-label" data-i18n="facts.smiles.label">SMILES 2026</span>
+          <strong data-i18n="facts.smiles.value">Remote participant</strong>
+          <p data-i18n="facts.smiles.text">Accepted for remote participation in the summer school.</p>
+        </article>
+        <article class="fact-card">
+          <span class="fact-label" data-i18n="facts.kvnsh.label">KVNSh 2026</span>
+          <strong data-i18n="facts.kvnsh.value">Application submitted</strong>
+          <p data-i18n="facts.kvnsh.text">Results expected in August 2026.</p>
+        </article>
+      </section>
+
+      <section class="section focus-section">
+        <p class="section-kicker" data-i18n="focus.kicker">Фокус</p>
+        <h2 data-i18n="focus.title">What I want my work to be useful for.</h2>
+        <div class="focus-list">
+          <article>
+            <h3 data-i18n="focus.llm.title">Reliable LLM workflows</h3>
+            <p data-i18n="focus.llm.text">Systems that do not just generate text, but preserve structure, traceability and task intent.</p>
+          </article>
+          <article>
+            <h3 data-i18n="focus.eval.title">Evaluation and benchmarks</h3>
+            <p data-i18n="focus.eval.text">Benchmarks for measuring whether agentic systems handle noisy real-world prompts correctly.</p>
+          </article>
+          <article>
+            <h3 data-i18n="focus.opensource.title">Open-source infrastructure</h3>
+            <p data-i18n="focus.opensource.text">Tools that make research projects easier to discover, maintain and reuse.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker" data-i18n="projects.kicker">Проекты</p>
+            <h2 data-i18n="projects.title">Selected projects</h2>
+          </div>
+          <p class="section-note" data-i18n="projects.note">Карточки подтягиваются из data/projects.js — чтобы добавить проект, достаточно скопировать один объект.</p>
+        </div>
+        <div class="project-grid" id="projectGrid"></div>
+      </section>
+
+      <section id="timeline" class="section split-section">
+        <div>
+          <p class="section-kicker" data-i18n="timeline.kicker">Путь</p>
+          <h2 data-i18n="timeline.title">Timeline</h2>
+        </div>
+        <ol class="timeline">
+          <li>
+            <span>2025–2026</span>
+            <p data-i18n="timeline.item1">Worked as a lab assistant at AIST, ITMO University.</p>
+          </li>
+          <li>
+            <span>2026</span>
+            <p data-i18n="timeline.item2">Received a diploma for the best young scientist talk at ITMO Young Scientists Congress 2026.</p>
+          </li>
+          <li>
+            <span>2026</span>
+            <p data-i18n="timeline.item3">Accepted for remote participation in SMILES 2026 Summer School.</p>
+          </li>
+          <li>
+            <span>2026+</span>
+            <p data-i18n="timeline.item4">Continuing toward research projects in LLM, MAS and requirements engineering.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <p class="section-kicker" data-i18n="contact.kicker">Контакты</p>
+        <h2 data-i18n="contact.title">Open to research collaboration, internships and technical discussions.</h2>
+        <div class="contact-links">
+          <a href="mailto:denispyshkin2007@gmail.com">Email</a>
+          <a href="https://t.me/hammondddd" target="_blank" rel="noreferrer">Telegram</a>
+          <a href="https://github.com/HammonDDDDD" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Denis Pyshkin</span>
+      <span data-i18n="footer.text">Built with static HTML/CSS/JS for GitHub Pages.</span>
+    </footer>
+
+    <script src="data/projects.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
